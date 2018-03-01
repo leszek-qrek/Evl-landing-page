@@ -1,0 +1,67 @@
+.main-content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 50%;
+	height: 50%;
+	margin: 0 auto;
+	background-color: #fff;
+	box-shadow: 0 0 15px #888888;	
+	border-radius: 10px;	
+	transform: translate(-50%, -50%);
+	 
+	-webkit-animation: background_change 6s infinite alternate;
+	-moz-animation: background_change 6s infinite alternate;
+	-ms-animation: background_change 6s infinite alternate;
+	-o-animation: background_change 6s infinite alternate;
+	animation: background_change 6s infinite alternate;
+}
+#backVideo {
+	position:fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+.title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 40%;
+	height: 20%;
+	color: #fff;
+	font-size: 2em; 
+	text-align: center; 	
+  	transform: translate(-50%, -50%);
+}
+
+@-webkit-keyframes background_change {
+	0% { background-color: red;}	
+	50% { background-color: green;}
+	100% { background-color: blue;}
+}
+
+@-moz-keyframes background_change {
+	0% { background-color: red; }	
+	50% { background-color: green;}
+	100% { background-color: blue;}
+}
+
+@-ms-keyframes background_change {
+	0% { background-color: red;}	
+	50% { background-color: green;}
+	100% { background-color: blue;}
+}
+
+@-o-keyframes background_change {
+	0% { background-color: red;}	
+	50% { background-color: green;}
+	100% { background-color: blue;}
+}
+
+@keyframes background_change {
+	0% { background-color: red;}	
+	50% { background-color: green;}
+	100% { background-color: blue;}
+}
